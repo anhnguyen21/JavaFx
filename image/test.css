@@ -1,0 +1,86 @@
+.test {
+	-fx-background-image: url("back1.jpg") ;
+	-fx-background-size: 1024 , 548;
+}
+.text1{
+	-fx-font: bold 10.0pt "Times New Roman";
+	-fx-text-inner-color: red;
+
+}
+.text2{
+	-fx-font: bold 15.0pt "Times New Roman";
+	-fx-text-inner-color: red;
+
+}
+.title{
+	-fx-font: bold  30.0pt "Times New Roman";
+	-fx-text-fill: white;
+}
+.text3{
+	-fx-font: bold  25.0pt "Times New Roman";
+	
+}
+
+.button1{
+	-fx-background-color: 
+        #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font: bold 15.0pt "Times New Roman";
+}
+.background{
+	-fx-background-color: #EEE8AA;
+}
+.color{
+	-fx-background-color: #00BB00;
+}
+.back1 {
+	-fx-background-image: url("Lich_660.jpg") ;
+	-fx-background-size: 1024 , 548;
+}
+
+.tableview{
+	-fx-background-color: pink;
+}
+.back2{
+	-fx-backgrond-color:black;
+}
+
+.background2{
+	-fx-background-image: url("studium.jpg") ;
+}
+.background3{
+	-fx-background-image: url("bill.jpg") ;
+}
+.test2{
+	-fx-font: bold 10.0pt "Times New Roman";
+	-fx-text-fill: white;
+
+}
+.blue {
+   -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+.yellow {
+    -fx-background-color: 
+        #ecebe9,
+        rgba(0,0,0,0.05),
+        linear-gradient(#dcca8a, #c7a740),
+        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),
+        linear-gradient(#f6ebbe, #e6c34d);
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-radius: 50;
+    -fx-padding: 15 30 15 30;
+   	-fx-font: bold 20.0pt "Times New Roman";
+    -fx-text-fill: #311c09;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+}
